@@ -5,7 +5,6 @@ from pathlib import PurePosixPath
 
 from PIL import Image as PILImage
 
-
 from stable_datasets.schema import (
     ClassLabel,
     DatasetInfo,
@@ -17,6 +16,7 @@ from stable_datasets.schema import (
 )
 from stable_datasets.schema import Image as ImageFeature
 from stable_datasets.utils import BaseDatasetBuilder
+
 
 class COIL20(BaseDatasetBuilder):
     """COIL-20 images of 20 objects photographed from multiple views."""
@@ -33,8 +33,7 @@ class COIL20(BaseDatasetBuilder):
         }""",
         assets={
             "train": DownloadInfo(
-                url="https://www.cs.columbia.edu/CAVE/databases/"
-                "SLAM_coil-20_coil-100/coil-20/coil-20-proc.zip"
+                url="https://www.cs.columbia.edu/CAVE/databases/SLAM_coil-20_coil-100/coil-20/coil-20-proc.zip"
             ),
         },
     )
@@ -45,9 +44,7 @@ class COIL20(BaseDatasetBuilder):
             features=Features(
                 {
                     "image": ImageFeature(),
-                    "label": ClassLabel(
-                        names=[f"obj{i}" for i in range(1, 21)]
-                    ),
+                    "label": ClassLabel(names=[f"obj{i}" for i in range(1, 21)]),
                     "view_id": Value("int32"),
                 }
             ),
@@ -82,5 +79,3 @@ class COIL20(BaseDatasetBuilder):
                         "view_id": view_id,
                     },
                 )
-
-

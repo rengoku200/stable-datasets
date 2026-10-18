@@ -45,10 +45,7 @@ class KTHTIPS(BaseDatasetBuilder):
             url={https://www.csc.kth.se/cvap/databases/kth-tips/}
         }""",
         assets={
-            "train": DownloadInfo(
-                url="https://www.csc.kth.se/cvap/databases/kth-tips/"
-                "kth_tips_col_200x200.tar"
-            ),
+            "train": DownloadInfo(url="https://www.csc.kth.se/cvap/databases/kth-tips/kth_tips_col_200x200.tar"),
         },
     )
 

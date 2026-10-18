@@ -12,7 +12,6 @@ from .cifar100 import CIFAR100
 from .cifar100_c import CIFAR100C
 from .clevrer import CLEVRER
 from .coil20 import COIL20
-from .kth_tips import KTHTIPS
 from .country211 import Country211
 from .cub200 import CUB200
 from .dsprites import DSprites
@@ -34,6 +33,7 @@ from .imagenet_1k import ImageNet1K
 from .imagenet_10 import Imagenette
 from .imagenet_100 import ImageNet100
 from .k_mnist import KMNIST
+from .kth_tips import KTHTIPS
 from .linnaeus5 import Linnaeus5
 from .med_mnist import MedMNIST
 from .not_mnist import NotMNIST
