@@ -12,6 +12,7 @@ from .cifar100 import CIFAR100
 from .cifar100_c import CIFAR100C
 from .clevrer import CLEVRER
 from .coil20 import COIL20
+from .kth_tips import KTHTIPS
 from .country211 import Country211
 from .cub200 import CUB200
 from .dsprites import DSprites
@@ -80,6 +81,7 @@ __all__ = [
     "ImageNet100",
     "Imagenette",
     "KMNIST",
+    "KTHTIPS",
     "Linnaeus5",
     "MedMNIST",
     "NotMNIST",
