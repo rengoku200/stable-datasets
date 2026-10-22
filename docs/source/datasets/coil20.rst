@@ -4,6 +4,10 @@ COIL-20
 Overview
 --------
 
+.. image:: teasers/coil20_teaser.png
+   :align: center
+   :width: 90%
+
 COIL-20 contains 1,440 grayscale images of 20 objects. Each object was
 photographed from 72 views. The processed images are 128 × 128 pixels.
 

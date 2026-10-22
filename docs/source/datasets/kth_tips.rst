@@ -4,6 +4,10 @@ KTH-TIPS
 Overview
 --------
 
+.. image:: teasers/kth_tips_teaser.png
+   :align: center
+   :width: 90%
+
 KTH-TIPS contains 810 color images of 10 materials photographed under
 different scales, poses, and lighting conditions. Each material has 81
 images. The cropped color images are 200 × 200 pixels.
